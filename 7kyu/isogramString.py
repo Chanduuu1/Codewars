@@ -14,3 +14,24 @@ def is_isogram(s):
                     continue
     else:
         return True
+    
+#Alternate Solution.
+def insogram(n):
+    l = []
+    m = []
+    for i in range(len(n)):
+        l.append(n[i].lower())
+
+    for i in l:
+        if i not in m:
+            m.append(i)
+        else:
+            continue
+            
+    if len(l) == len(m):
+        return True
+    else:
+        return False
+print(insogram("henlno"))
+
+#Using sets 3rd solution!
