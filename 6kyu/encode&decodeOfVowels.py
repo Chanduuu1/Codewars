@@ -27,3 +27,4 @@ def decode(st):
     return st
 
 #Another approch would be using makeTrans() or  translate() function, keep in mind
+#Yet anoter approch using replace("jisse replace karna hai","jiss se replace karna hai")
